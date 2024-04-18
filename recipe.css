@@ -1,0 +1,153 @@
+/* Set font family and color */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Set margin and padding for the entire page */
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the page title */
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .container {
+  text-align: center;
+  }
+
+  
+  /* Style the recipe image */
+  .recipe-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Style the recipe details */
+  .recipe-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .recipe-details__item {
+    flex-basis: calc(50% - 1rem);
+    margin-bottom: 1rem;
+  }
+  
+  .recipe-details__label {
+    font-weight: bold;
+  }
+  
+  .recipe-details__list {
+    margin: 0;
+    padding-left: 1rem;
+    list-style-type: none;
+  }
+  
+  .recipe-details__list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .recipe-details__list--inline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .recipe-details__list--inline li {
+    margin-right: 1rem;
+  }
+  
+  /* Style the recipe ingredients and instructions */
+  .recipe-instructions {
+    margin-top: 2rem;
+  }
+  
+  .recipe-instructions__heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .recipe-instructions__list {
+    margin-top: 1rem;
+    padding-left: 1rem;
+    list-style-type: decimal;
+  }
+  
+  .recipe-instructions__list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .recipe-instructions__link {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .recipe-instructions__link a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Style the rating form */
+  .rating-form {
+    margin-top: 2rem;
+  }
+  
+  .rating-form__label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .rating-form__input {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .rating-form__textarea {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+    height: 100px;
+  }
+  
+  .rating-form__submit {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .rating-form__submit:hover {
+    background-color: #666;
+  }
+  

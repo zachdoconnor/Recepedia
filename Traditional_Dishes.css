@@ -1,0 +1,46 @@
+.traditional_dishes .search-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-bottom: 3px solid black;
+}
+
+.traditional_dishes .search-input {
+  border-radius: 0;
+  border-color: #ccc;
+}
+
+.traditional_dishes .search-btn {
+  background-color: #5bc0de;
+  color: white;
+  border-radius: 0;
+  border-color: #5bc0de;
+}
+
+.traditional_dishes .search-btn:hover {
+  background-color: #5bc0de;
+}
+
+.traditional_dishes .dropdown-toggle {
+  border-radius: 0;
+  background-color: #fff;
+  color: black;
+  border-color: #ccc;
+}
+
+.traditional_dishes .dropdown-menu {
+  border-radius: 0;
+  border-color: #ccc;
+}
+
+.traditional_dishes .dropdown-menu li {
+  padding: 5px;
+}
+
+.traditional_dishes .dropdown-menu li:hover {
+  background-color: #5bc0de;
+  color: #fff;
+}
+
+.traditional_dishes .dropdown-menu input[type="radio"] {
+  margin-right: 10px;
+}
