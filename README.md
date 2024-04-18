@@ -10,4 +10,7 @@ Features:
 - Recipe Rating, Filtering, and Reviews
 - Collection of Highest Rated Recipes
 - Interactive Online Pantry
+
+  ![image](https://github.com/zachdoconnor/Recepedia/assets/99100661/b0ec94d4-c190-4253-8d3d-11b381cc272a)
+
   
